@@ -1,5 +1,4 @@
-val = 600851475143
-max = 2
+val, max = [600851475143, 2]
 
 val = val.div(2) while val.modulo(2).zero?
 
