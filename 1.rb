@@ -1,0 +1,1 @@
+puts (1...1000).select{|a| a.modulo(3).zero? || a.modulo(5).zero?}.reduce(:+)
