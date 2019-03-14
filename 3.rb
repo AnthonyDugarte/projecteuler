@@ -12,4 +12,6 @@ while i <= n do
     i += 2
 end
 
+max = val if !val.eql?(1)
+
 puts max
